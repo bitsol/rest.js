@@ -4210,6 +4210,27 @@
       },
       "url": "/orgs/:org/migrations/:migration_id/repos/:repo_name/lock"
     },
+    "unlockRepoLockedForUserMigration": {
+      "headers": {
+        "accept": "application/vnd.github.wyandotte-preview+json"
+      },
+      "method": "DELETE",
+      "params": {
+        "id": {
+          "alias": "migration_id",
+          "deprecated": true
+        },
+        "migration_id": {
+          "required": true,
+          "type": "string"
+        },
+        "repo_name": {
+          "required": true,
+          "type": "string"
+        }
+      },
+      "url": "/user/migrations/:migration_id/repos/:repo_name/lock"
+    },
     "updateImport": {
       "headers": {
         "accept": "application/vnd.github.barred-rock-preview"
