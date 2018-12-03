@@ -1,5 +1,5 @@
 {
-  "name": "@bitsol/octokit-rest-legacy",
+  "name": "@sgvictorino/octokit-rest-legacy",
   "version": "0.0.0-semantically-released",
   "publishConfig": {
     "access": "public",
